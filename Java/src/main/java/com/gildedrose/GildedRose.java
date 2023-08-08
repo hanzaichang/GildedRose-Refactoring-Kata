@@ -35,22 +35,18 @@ class GildedRose {
     }
 
     private boolean isConjured(Item item) {
-        //return item.name.startsWith("Conjured");
         return isPatternMatch(item.name, "^Conjured.*");
     }
 
     private boolean isSulfuras(Item item) {
-        //return item.name.startsWith("Sulfuras");
         return isPatternMatch(item.name, "^Sulfuras.*");
     }
 
     private boolean isBackstagePasses(Item item) {
-        //return item.name.startsWith("Backstage passes");
         return isPatternMatch(item.name, "^Backstage passes.*");
     }
 
     private boolean isAgedBrie(Item item) {
-        //return "Aged Brie".equals(item.name);
         return isPatternMatch(item.name, "Aged Brie");
     }
 

@@ -47,6 +47,7 @@ class GildedRose {
     }
 
     private boolean isAgedBrie(Item item) {
+        //github-test
         return isPatternMatch(item.name, "Aged Brie");
     }
 
